@@ -1,0 +1,52 @@
+
+===============================================================================================
+Project:
+
+US Payroll -
+ Its a payroll implementation for US Customers.In which we handle the employees payroll process.
+ For Payroll processing eg. one employee will have the Tax card assigned to him in Tax card 
+ there are some component State Taxes ,Federal Taxes and Association (like which employer is associated with it)
+ So each component have some tax rules and related data .
+
+ For payroll process a person should have tax card under any legislation and elements
+ Elements are processing block .
+ Elements have the
+		--INPUT Values --> To store run results, To feed the balances
+		--status processing rules
+		--formula result rules [Direct Indirect]
+		--balance feeds 
+		--element eligibility
+		--Skip formula
+		--element entries
+		--Base -> Calculator -> Results [Shadow Elements]
+		--Priorities
+		--Classification
+			--Standard Earnings
+			--Pretax
+			--Voluntary
+			--Imputed Earnings
+			--Supplemental Earnings
+
+Role :
+ Actually here we have already developed project.So we see the internal enhancement when encountered.
+ We also see the customer bugs when comes to us.We check the exact behaviour of system and customer expectation.
+ If its potential issue then we fix that and deliver.Some we also communicate with customer when there is some 
+ critical issue with customer,we review their data at their end and verify the same behaviour internally .
+ 			
+===============================================================================================
+We have ADF framework,
+
+In which we have 4 layers-Model layer ,view layer ,controller layer and business service layer
+
+•	The model layer represents the data values related to the current page
+•	The view layer contains the UI pages used to view or modify that data.
+•	The controller layer processes user input and determines page navigation.(Task flows)
+•	The business service layer handles data access and encapsulates business logic.
+
+
+When we create the UI page ,ADF creates one pageDefinition that have the all binding related information. When we add some component to it 
+adf creates a data binding for it.When page is loaded then with help of binding it can get the value from the datacontrol.
+
+===============================================================================================
+
+
